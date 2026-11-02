@@ -54,6 +54,7 @@ export const supabaseWayDatabaseBuild: ContentListingGroup = {
   id: 'supabase-way-database-build',
   heading: 'Build it',
   headingLevel: 'h3',
+  isHiddenFromToc: true,
   type: 'grid',
   columns: 3,
   items: [
@@ -79,6 +80,7 @@ export const supabaseWayAuthBuild: ContentListingGroup = {
   id: 'supabase-way-auth-build',
   heading: 'Build it',
   headingLevel: 'h3',
+  isHiddenFromToc: true,
   type: 'grid',
   columns: 3,
   items: [
@@ -104,6 +106,7 @@ export const supabaseWayRlsBuild: ContentListingGroup = {
   id: 'supabase-way-rls-build',
   heading: 'Build it',
   headingLevel: 'h3',
+  isHiddenFromToc: true,
   type: 'grid',
   columns: 2,
   items: [
@@ -124,6 +127,7 @@ export const supabaseWayRealtimeBuild: ContentListingGroup = {
   id: 'supabase-way-realtime-build',
   heading: 'Build it',
   headingLevel: 'h3',
+  isHiddenFromToc: true,
   type: 'grid',
   columns: 3,
   items: [
@@ -150,6 +154,7 @@ export const supabaseWayStorageBuild: ContentListingGroup = {
   id: 'supabase-way-storage-build',
   heading: 'Build it',
   headingLevel: 'h3',
+  isHiddenFromToc: true,
   type: 'grid',
   columns: 2,
   items: [
@@ -170,6 +175,7 @@ export const supabaseWayFunctionsBuild: ContentListingGroup = {
   id: 'supabase-way-functions-build',
   heading: 'Build it',
   headingLevel: 'h3',
+  isHiddenFromToc: true,
   type: 'grid',
   columns: 3,
   items: [
@@ -195,6 +201,7 @@ export const supabaseWayProductionBuild: ContentListingGroup = {
   id: 'supabase-way-production-build',
   heading: 'Build it',
   headingLevel: 'h3',
+  isHiddenFromToc: true,
   type: 'grid',
   columns: 3,
   items: [

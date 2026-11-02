@@ -137,7 +137,11 @@ function ContentListingProgression({ group }: { group: ContentListingGroup }) {
 function ContentListingGroupHeading({ group }: { group: ContentListingGroup }) {
   if (!group.heading) return null
 
-  return <Heading tag={group.headingLevel ?? 'h2'}>{group.heading}</Heading>
+  const HeadingTag = group.headingLevel ?? 'h2'
+  // a plain heading has no id, so the page toc skips it
+  if (group.isHiddenFromToc) return <HeadingTag>{group.heading}</HeadingTag>
+
+  return <Heading tag={HeadingTag}>{group.heading}</Heading>
 }
 
 function ContentListingsGroup({ group }: { group: ContentListingGroup }) {
